@@ -1,0 +1,19 @@
+Features:
+
+> TestMaker Creation Prompt
+>>(A) Create a Section 
+>>> Name Section ("Blank allowed") ✓
+>>> Select Section Type (Multiple Choice, Fill in the Blanks, Enumeration, Matching Type) ✓
+>>>(B) Add Questions
+>>>> Add Another Question or Loop to (B)
+>>>> Finish or Loop to (A)
+= Object {
+    sectionName : {
+        type: typeVal,
+        questions : [questionVals]
+    }
+} 
+
+> TestMaker Creator
+>> Creates a Test Based on Settings Provided on Creation Prompt
+--
